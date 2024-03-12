@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+       
+        <div class="logo" >
+              <div class="menubar"  onclick="menu()">
+                <img src="./img/menu_6367992 (1).png" alt="" >
+              </div>
+            <h1>Just <span>Games</span></h1>
+        </div>
+        <!-- <div class="menuicon" onclick="menuToggle()">
+            <img src="./img/menu_2976215.png" alt="">
+        </div> -->
+        <div class="links">
+             <div class="cross" onclick="menu()">
+                <img src="./img/menu_6367992 (1).png" alt="">
+             </div>
+            <ul class="menu">
+              <li> <a href="">Home</a></li>
+              <li> <a href="">About</a></li>
+              <li class="dropcontent"> <a href="">games</a>
+                 <ul class="dropdown">
+                    <li>All Games</li>
+                    <li>All Games</li>
+                    <li>All Games</li>
+                    <li>All Games</li>
+                    <li>All Games</li>
+                    <li>All Games</li>
+                 </ul>
+              </li>
+              <li> <a href="">Contact</a></li>
+              <li>  <a href="">Profile</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="sideNav" class="sidebar">
+  <div class="menucontainer">
+    <div class="button">
+        <button>Login</button>
+    </div><hr>
+     <div class="game">
+        <h3>Games Name</h3>
+        <h3>All Gamess</h3>
+        <h3>show games</h3>
+     </div><hr>
+     <div class="main">
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>conact</li>
+            <li>profile</li>
+            <li>games</li>
+        </ul>
+     </div>
+   </div>
+   <div class="fade" onclick="menu()"></div>
+  </div>
+  <div class="container">
+    <div class="games"> 
+        <h1>Ludo Game</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id est facere, obcaecati vel cumque itaque reprehenderit, repellat at illo sunt deleniti. Maiores corporis voluptatibus in cumque commodi delectus, ratione doloremque!</p>
+    </div>
+    <div class="image">
+        <div class="prev" onclick="slideBack()">
+            <img src="./img/left-arrow.png" alt="">
+        </div>
+        <img src="./img/ludo.avif" alt="" id="slider">
+        <div class="next" onclick="slideForward()">
+            <img src="./img/right-arrow.png" alt="">
+         </div>
+    </div>
+</div>
+<div id="root">
+
+</div>
+</body>
+<script src="./jscript.js"></script>
+</html>
